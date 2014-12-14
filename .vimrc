@@ -66,6 +66,7 @@ set list
 set listchars=tab:▸\ ,eol:¬
 
 
+au BufRead,BufNewFile *.ino set filetype=arduino
 au BufRead,BufNewFile *.bal set filetype=javascript
 
 " To insert a single character and return to normal mode
